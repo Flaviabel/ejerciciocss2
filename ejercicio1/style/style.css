@@ -2,13 +2,16 @@
     display: flex;
     flex-direction: row;
 }
-.datos{
+
+.datos {
     grid-area: datos;
 }
-.formacion{
+
+.formacion {
     grid-area: formacion;
 }
-.experiencia{
+
+.experiencia {
     grid-area: experiencia;
 }
 
@@ -32,4 +35,8 @@
             "datos formacion"
             "datos experiencia"
     }
+}
+
+span {
+    color: blue;
 }
